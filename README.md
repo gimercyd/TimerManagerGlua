@@ -6,13 +6,15 @@
 
 <div>
   <h1><i><b>Example use:</b></i></h1>
-  <pre>
-    <code>
-      TimerManager:set(delay, callback)
-      -- life example
-      TimerManager:set(2, function(ply)
-        ply:ChatPrint("hello world!")
-      end)
-    </code>
-  </pre>
+<pre>
+<code>
+TimerManager:set(delay, callback)
+  
+-- life example
+  
+TimerManager:set(2, function(ply)
+  ply:ChatPrint("hello world!")
+end)
+</code>
+</pre>
 </div>
