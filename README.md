@@ -9,9 +9,8 @@
 <pre>
 <code>
 TimerManager:set(delay, callback)
-  
+
 -- life example
-  
 TimerManager:set(2, function(ply)
   ply:ChatPrint("hello world!")
 end)
