@@ -6,11 +6,9 @@
 
 <div>
   <h1><i><b>Example use:</b></i></h1>
+  <p1>function: <code>TimerManager:set(delay, callback)</code></p1>
 <pre>
 <code>
-TimerManager:set(delay, callback)
-
--- life example
 TimerManager:set(2, function(ply)
   ply:ChatPrint("hello world!")
 end)
